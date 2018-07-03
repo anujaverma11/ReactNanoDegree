@@ -121,7 +121,7 @@ react scripts installs
  - webpack (generate the build)
  - webpack-dev-server (gives us the auto reload behavior)
 
-(create-react-app on GitHub)[https://github.com/facebook/create-react-app]
+[create-react-app on GitHub](https://github.com/facebook/create-react-app)
 
 ### Composing with Components
 ### Rendering UI Outro
