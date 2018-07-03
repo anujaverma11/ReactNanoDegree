@@ -1,6 +1,6 @@
 ### Creating Elements and JSX
 
-##### Create Element Syntax:
+#### Create Element Syntax:
 ```
 React.createElement( /* type */, /* props */, /* content */ );
 ```
@@ -16,7 +16,7 @@ Let's break down what each item can be:
  - content – null, a string, a React Element, or a React Component
     Anything that you pass here will be the content of the rendered element. This can include plain text, JavaScript code, other React elements, etc.
 
-##### Nested Elements
+#### Nested Elements
 ```
 import React from 'react'
 import ReactDOM from 'react-dom'
@@ -34,7 +34,7 @@ ReactDOM.render(
 ```
 
 
-##### React lets you use JavaScript Arrays:
+#### React lets you use JavaScript Arrays:
 
 ```
 import React from 'react'
@@ -56,7 +56,7 @@ ReactDOM.render(
   )
 ```
 
-##### Creating the same list in JSX.
+#### Creating the same list in JSX.
 
 Any Javascript expression can be executed using {} braces.
 
@@ -81,14 +81,14 @@ ReactDOM.render(
   getElementByID('root')
   )
 ```
-##### Intro to Components
+#### Intro to Components
 Declaring Components in React
 ```
 class ContactList extends React.Component {
 // ...
 }
 ```
-##### Declaring Components
+#### Declaring Components
 A great mindset to have when building React apps is to think in components. Components represent the modularity and reusability of React. You can think of your component classes as factories that produce instances of components. These component classes should follow the single responsibility principle and just "do one thing". If it manages too many different tasks, it may be a good idea to decompose your component into smaller subcomponents.
 ```
 import React from 'react'
@@ -116,6 +116,12 @@ ReactDOM.render(
 ```
 
 ### Create React App
+react scripts installs
+ - Babel (use latest JS as well as JSX).
+ - webpack (generate the build)
+ - webpack-dev-server (gives us the auto reload behavior)
+
+
 ### Composing with Components
 ### Rendering UI Outro
 ### Introduction
